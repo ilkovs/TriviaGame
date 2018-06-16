@@ -1,3 +1,53 @@
 body {
     background-image: url("../images/background.jpg");
 }
+
+#spinner {
+    text-align: center;
+    color: red !important;
+    background-color: lightcyan;
+    word-spacing: 20px;
+    padding: 0 0 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform:  rotateX(0deg);
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    transform-style: preserve-3d;
+  }
+  @keyframes spinner {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-180deg);
+    }
+}
+
+#time {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: darkblue;
+}
+
+#main {
+    background-color: lightcyan;
+    margin: 0 -20px;
+    padding: 0 0 300px 0;
+}
+
+button {
+    margin: 0 auto; 
+    display: inline-block; 
+    width: 30%; 
+    border-radius: 10px; 
+    border: none; 
+    padding: 10px 20px; 
+    background-color: red;
+}
+
+button:hover {
+    color: white;
+}
