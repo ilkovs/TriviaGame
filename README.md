@@ -2,7 +2,7 @@
 
 Uses HTML and CSS to render the game on the web page.
 
-Uses JavaScript for the logic of the game and jQuery to manipulate the html of the game.
+Uses JQuery to manipulate the html of the game.
 
 User Story
 
