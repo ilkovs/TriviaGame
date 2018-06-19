@@ -45,9 +45,9 @@ button {
     border-radius: 10px; 
     border: none; 
     padding: 10px 20px; 
-    background-color: red;
+    background-color: red !important;
 }
 
 button:hover {
-    color: white;
+    color: white !important;
 }
